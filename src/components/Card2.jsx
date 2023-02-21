@@ -8,8 +8,8 @@ const EventHandler=()=>{
   navigate('/Screen2')
 }
   return (
-    <div className="mt-10 xl:mx-20 xl:mt-0">
-      <div className="relative box-content  h-60 w-36  drop-shadow-xl rounded-2xl bg-white  hover:scale-110 duration-300 cursor-pointer ">
+    <div className="mt-8 mx-0 xl:mx-20 xl:mt-0">
+      <div className="relative box-content     h-60 w-36  drop-shadow-xl rounded-2xl bg-white  hover:scale-110 duration-300 cursor-pointer ">
         <div className=" ">
           {" "}
           <div className=" space-y-4 py-4 ml-2  ">
