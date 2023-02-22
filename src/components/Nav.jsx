@@ -11,7 +11,7 @@ import Profile from "../assets/Profile.png";
 const Nav = () => {
   return (
    <div className='flex  ml-4 justify-center'>
-    <div className='flex flex-wrap mt-4   h-10 p-8  xl:w-[1359px] xl:h-[60px]  md:w-[650px]  lg:w-[1359px] lg:h-[60px] w-[400px]  xl:mx-40  lg:mx-12 md:mx-16  drop-shadow-xl rounded-2xl bg-white justify-between space-x-4    xl:space-x-80 lg:justify-between md:justify-between 	'>
+    <div className='flex flex-wrap mt-4   h-10 p-8  xl:w-[1359px] xl:h-[60px]  md:w-[1200px]  lg:w-[1359px] lg:h-[60px] w-[400px]  xl:mx-40  lg:mx-12 md:mx-10  drop-shadow-xl rounded-2xl bg-white justify-between space-x-4    xl:space-x-80 lg:justify-between md:justify-between 	'>
     <div className='flex flex-wrap space-x-2 ml-2 xl:ml-8'>
     <img src={Menu} alt="img" className="w-4 h-4 mt-1 " />
     <p className="font-bold text-orange-500	" >

@@ -95,7 +95,7 @@ const UserList1 = () => {
   return (
     <div>
       <div className="grid xl:grid-cols-6 lg:grid-cols-6 md:grid-cols-4 grid-cols-2 xl:gap-2 lg:gap-10
-       md:gap-14 sm:gap-1 gap-10 my-4 xl:mx-20 mx-10 ">
+       md:gap-14 sm:gap-1 gap-20 my-4 xl:mx-20 mx-10 ">
         {cardlist2.map((elem, index) => (
           <Cards2
             key={index}
