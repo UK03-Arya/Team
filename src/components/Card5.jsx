@@ -5,8 +5,8 @@ import Syb from "../assets/Syb.png";
 import DownArrow from "../assets/DownArrow.png";
 const Card5 = () => {
   return (
-    <div className="mt-0 mb-8 mx-10 xl:mx-48   ">
-      <div className="relative box-content ml-1 md:ml-10  mt-4  h-[450px] w-[300px] md:w-[650px] lg:w-[850px] lg:ml-16 lg:mt-8 xl:w-[1000px] md:h-96 md:pb-4 lg:pb-8 pb-4 xl:h-96 xl:pt-4 xl:pb-10   drop-shadow-xl rounded-2xl bg-white   ">
+    <div className="mt-0 mb-8 mx-10 xs:mx-1 ms:ml-8 xl:mx-48   ">
+      <div className="relative box-content ml-1 md:ml-10 xs:ml-4  mt-4 sm:ml-6 h-[450px] xs:w-[275px] md:w-[650px] lg:w-[850px] lg:ml-16 lg:mt-8 xl:w-[1000px] md:h-96 md:pb-4 lg:pb-8 pb-4 xl:h-96 xl:pt-4 xl:pb-10   drop-shadow-xl rounded-2xl bg-white   ">
         <div>
                    <div className="flex flex-col lg:flex-row md:flex-row xl:flex-row ml-4 xl:ml-10 ">
             <div className="flex flex-col mt-6 md:mt-4 lg:mt-2 xl:mt-2">
@@ -22,7 +22,7 @@ const Card5 = () => {
                   value="Nazneen Husain"
                   className="w-[250px] h-6 mt-2 text-xs pl-4  xl:w-96  xl:h-8 lg:w-96 lg:px-10 lg:h-6 md:w-28 md:px-36 rounded-full border-2	 border-gray-400 "
                 />
-                <span className="absolute text-md left-60 mt-4 	xl:left-60 xl:ml-36 lg:ml- md:ml-10">
+                <span className="absolute text-md left-56 mt-4 	xl:left-60 xl:ml-36 lg:ml-32  md:ml-10">
                   <img src={Syb} alt="img" className="w-2 h-2  xl:h-4 xl:w-4" />
                 </span>
               </div>
@@ -73,9 +73,9 @@ const Card5 = () => {
                 <input
                   type="text"
                   value="Instructor"
-                  className="w-[250px] h-6 text-xs mt-2 ml-1 pl-4 lg:w-96 lg:px-10 lg:h-6  xl:w-96 xl:px-10 xl:h-8 md:w-28 md:px-36 rounded-full border-gray-400 border-2	"
+                  className="w-[250px]  h-6 text-xs mt-2 ml-1 pl-4 lg:w-96 lg:px-10 lg:h-6  xl:w-96 xl:px-10 xl:h-8 md:w-28 md:px-36 rounded-full border-gray-400 border-2	"
                 />
-                <span className="absolute text-md right-6 mt-4 lg:right-12  xl:right-28 md:right-6	">
+                <span className="absolute text-md right-6 mt-4 lg:right-12 xl:right-28 md:right-6 ms:ml-64">
                   <img
                     src={DownArrow}
                     alt="img"
@@ -100,7 +100,7 @@ const Card5 = () => {
               </div>
             </div>
          
-          <div className="flex space-x-2  xl:pl-40 md:space-x-4 md:pl-10 lg:pl-56 pl-16 mt-6 xl:ml-72 xl:mt-0 xl:pb-8  lg:ml-40 md:ml-56 ">
+          <div className="flex space-x-2  xl:pl-40 md:space-x-4 md:pl-8  lg:pl-48 pl-16 mt-6 xl:ml-56 xl:mt-0 xl:pb-8  lg:ml-40 md:ml-56 ">
             <div className=" border-2 text-[#023059] bg-white font-semibold px-4 py-1  rounded-full border-orange-300 text-sm  ">
               <button>Cancel</button>
             </div>

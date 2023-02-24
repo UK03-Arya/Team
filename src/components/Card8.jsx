@@ -4,7 +4,7 @@ import React from "react";
 const Cards8 = ({ Name,Role,Email,Invite,DOJ }) => {
   
   return (
-    <div className="mt-10 w-[380px]   md:w-[750px]  lg:w-[950px]  xl:w-[1200px] xl:mt-4">
+    <div className="mt-10 w-[380px]  xs:ml-4 md:w-[750px]  lg:w-[950px]  xl:w-[1200px] xl:mt-4">
       <div className="relative ">
       
           <div className=" xl:space-y-2 xl:py-4 ml-2  ">

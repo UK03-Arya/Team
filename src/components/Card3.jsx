@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 const Card3 = () => {
   const history =useNavigate()
   return (
-    <div className='flex justify-start xl:ml-20 w-[400px] md:w-[750px] lg:w-[1000px] xl:w-[1200px]'>
+    <div className='flex justify-start xl:ml-20 w-[300px] md:w-[750px] lg:w-[1000px] xl:w-[1200px]'>
     <div className='flex flex-col md:flex-wrap lg:flex-wrap xl:flex-wrap mt-28 h-12 xl:mt-10 lg:mt-10 md:mt-10 mx-4 justify-between xl:mx-40 lg:mx-20 md:mx-20 p-4  bg-white     xl:space-x-80 lg:space-x-80 md:space-x-20 	'>
     <div className='flex flex-wrap space-x-2 xl:ml-0'>
    <button onClick={()=>history(-1)}>

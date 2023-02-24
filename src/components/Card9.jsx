@@ -3,9 +3,9 @@ import { FaRegUserCircle } from "react-icons/fa";
 import Add from "../assets/Add.png";
 import Syb from "../assets/Syb.png";
 import DownArrow from "../assets/DownArrow.png";
-const Card4 = () => {
+const Card9 = () => {
   return (
-    <div className="flex xs:ml-3 ms:ml-10 sm:ml-16 xl:ml-10">
+    <div className="flex xs:ml-10 sm:ml-16 xl:ml-10">
    {/* <div className="mt-4 mb-8  md:mx-8  flex xl:mx-48 justify-start ml-10 md:ml-10"> */}
     <div className='flex flex-wrap mt-4 md:mt-2  h-10   xl:mx-60  lg:mx-12 md:mx-10   rounded-2xl bg-white    xl:space-x-80 lg:justify-between md:justify-between 	'>
 
@@ -181,4 +181,4 @@ const Card4 = () => {
   );
 };
 
-export default Card4;
+export default Card9;

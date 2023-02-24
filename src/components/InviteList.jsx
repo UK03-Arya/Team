@@ -89,7 +89,7 @@ const InviteList = () => {
   ];
   return (
     <div className="scroll-pl-6 snap-x">
-    <div className="bg-orange-200  w-[385px] md:w-[740px] lg:w-[1000px] xl:w-[1400px]   md:mr-4 ml-1 mt-6">
+    <div className="bg-orange-200  w-[385px] md:w-[740px] sm:ml-4 lg:w-[1000px] xl:w-[1400px]   md:mr-4 ml-1 mt-6">
       <div className=" flex xl:pl-36 lg:pl-12  lg:space-x-40 md:pl-10 md:space-x-28 space-x-10 pl-8 xl:space-x-52  ">
         <p className=" text-sm mt-2  font-semibold">Name</p>
         <p className=" text-sm mt-2 font-semibold">Role</p>
